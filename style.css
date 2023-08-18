@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'NorseBold'; 
+    src: url('path-to-your-font/customfont.woff2') format('woff2'),
+         url('path-to-your-font/customfont.woff') format('woff');
+    
+  }
+
+
+body {
+    font-family: 'NorseBold', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.left-container {
+    background-image: url("./images/neon-city.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(247, 247, 247);
+    width: 60vw;
+    
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.up-container {
+    background-color: rgb(232, 235, 238);
+    padding: 250px 64px 64px 64px;
+}
+.up {
+    max-width: 925px;
+    font-size: 20px;
+    
+}
+
+h2 {
+    font-weight: 500;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
