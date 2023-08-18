@@ -19,6 +19,9 @@ body {
     background-size: cover;
     background-color: rgb(247, 247, 247);
     width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
     
 }
 
@@ -33,6 +36,13 @@ body {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+}
+
+.footer {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
 }
 
 .right-container {
@@ -50,10 +60,8 @@ body {
 }
 
 .up {
-    max-width: 760px;
+    max-width: 600px;
     font-size: 16px;
-    
-    
 }
 
 .neoff {
